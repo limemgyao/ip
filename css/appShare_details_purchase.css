@@ -1,0 +1,407 @@
+.box {
+    width: 7.5rem;
+    height: auto;
+    overflow: hidden;
+}
+
+.title {
+    width: 100%;
+    height: 1.28rem;
+    padding-top: 0.64rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.title .con {
+    width: 100%;
+    height: 0.48rem;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+
+.title .con .left {
+    width: 0.2rem;
+    height: 100%;
+    position: relative;
+}
+
+.title .con .left img {
+    width: 0.2rem;
+    height: 0.36rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.title .con .center {
+    width: auto;
+    height: 100%;
+    font-size: 0.34rem;
+    line-height: 0.48rem;
+    color: rgba(68, 68, 68, 1);
+    overflow: hidden;
+}
+
+.title .con .right {
+    width: auto;
+    height: 100%;
+    font-size: 0.34rem;
+    line-height: 0.48rem;
+    color: rgba(68, 68, 68, 1);
+    overflow: hidden;
+}
+
+.title .con img {
+    width: 0.36rem;
+    height: 0.38rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.box .banner {
+    width: 100%;
+    height: 5.2rem;
+    position: relative;
+    background: rgba(246, 246, 246, 1);
+}
+
+.banner .con {
+    width: 3.02rem;
+    height: 4.32rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.con_1 {
+    width: 100%;
+    height: 2.22rem;
+    padding: 0.48rem 0.3rem 0.32rem;
+}
+
+.border {
+    border-bottom: 0.02rem solid rgba(246, 246, 246, 1);
+}
+
+.con_1 p {
+    font-size: 0.48rem;
+    color: rgba(68, 68, 68, 1);
+    line-height: 0.52rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.con_1 ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.con_1 ul li {
+    width: auto;
+    height: 100%;
+}
+
+.con_1 ul li.l1 {
+    float: left;
+    font-size: 0.4rem;
+    color: #FF7F03;
+    line-height: 0.48rem
+}
+
+.con_1 ul li.l1 span {
+    font-size: 0.3rem;
+}
+
+.con_1 ul li.l2 {
+    float: right;
+}
+
+.con_1 ul li.l2 .ti {
+    float: left;
+    font-size: 0.28rem;
+    color: rgba(161, 161, 161, 1);
+    line-height: 0.4rem;
+}
+
+.con_1 ul li.l2 .share {
+    width: 0.4rem;
+    height: 0.4rem;
+    float: right;
+    position: relative;
+    margin-left: 0.1rem;
+}
+
+.con_1 ul li.l2 .share a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.con_1 ul li.l2 .share a img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.con_2 {
+    width: 100%;
+    height: 1rem;
+    padding: 0.3rem 0.58rem 0.3rem 0.3rem;
+}
+
+.con_2 ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.con_2 ul li {
+    font-size: 0.28rem;
+    color: rgba(161, 161, 161, 1);
+    line-height: 0.4rem;
+}
+
+.con_2 ul li span {
+    color: rgba(120, 120, 120, 1);
+}
+
+.con_3 {
+    width: 100%;
+    height: 1.98rem;
+    position: relative;
+}
+
+.con_3 .p1 {
+    width: 100%;
+    height: 1.11rem;
+    padding: 0.4rem 0.3rem;
+    font-size: 0.28rem;
+    color: rgba(68, 68, 68, 1);
+}
+
+.con_3 .p2 {
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.24rem;
+    color: rgba(255, 180, 107, 1);
+    line-height: 0.88rem;
+    cursor: pointer;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.con_4 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-top: 0.2rem solid rgba(246, 246, 246, 1);
+    padding: 0.3rem;
+}
+
+.con_4 ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.con_4 ul li.l1, .con_4 ul li.l2 {
+    float: left;
+}
+
+.con_4 ul li.l1 {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.con_4 ul li.l2 {
+    width: auto;
+    height: auto;
+    margin-left: 0.22rem;
+    font-size: 0.36rem;
+    color: rgba(68, 68, 68, 1);
+    line-height: 0.4rem;
+    padding-top: 0.15rem;
+}
+
+.con_4 ul li.l2 span {
+    font-size: 0.24rem;
+    color: rgba(161, 161, 161, 1);
+}
+
+.con_4 ul li.l3 {
+    float: right;
+    width: 1.8rem;
+    height: 0.9rem;
+    margin-top: 0.1rem;
+}
+
+.con_8 {
+    width: 100%;
+    height: 1.1rem;
+    border-top: 0.2rem solid rgba(246, 246, 246, 1);
+    border-bottom: 0.2rem solid rgba(246, 246, 246, 1);
+    padding: 0rem 0.26rem 0rem 1.1rem;
+    font-size: 0.36rem;
+    color: rgba(255, 127, 3, 1);
+    line-height: 0.6rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.con_8 .line {
+    width: 2.5rem;
+    height: 0.04rem;
+    background: rgba(255, 127, 3, 1);
+    position: absolute;
+    left: 0.6rem;
+    bottom: 0rem;
+}
+
+.con_9 {
+    width: 100%;
+    height: 5.59rem;
+    padding-top: 0.4rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin-bottom: 1.08rem;
+}
+
+.con_9 p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.3rem;
+    font-size: 0.28rem;
+    color: rgba(153, 153, 153, 1);
+    line-height: 0.5rem;
+}
+
+.con_9 .img {
+    width: 100%;
+    height: 3.4rem;
+}
+
+.con_10 {
+    width: 100%;
+    height: 1.08rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.con_10 ul {
+    width: 100%;
+    height: 100%;
+}
+
+.con_10 ul li.l1 {
+    width: 2.7rem;
+    height: 100%;
+    float: left;
+    background: #fff;
+}
+
+.con_10 ul li.l1 .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.con_10 ul li.l1 .left .con, .con_10 ul li.l1 .right .con {
+    width: 0.48rem;
+    height: 0.66rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 0.24rem;
+    color: rgba(153, 153, 153, 1);
+    line-height: 0.4rem;
+}
+
+.con_10 ul li.l1 .left .con .im, .con_10 ul li.l1 .right .con .im {
+    width: 0.3rem;
+    height: 0.3rem;
+    margin: 0 auto;
+}
+
+.con_10 ul li.l1 .right {
+    width: 50%;
+    height: 100%;
+    border-left: 0.02rem solid rgba(246, 246, 246, 1);
+    float: right;
+    position: relative;
+}
+
+.con_10 ul li.l2 {
+    width: 4.8rem;
+    height: 100%;
+    background: rgba(255, 127, 3, 1);
+    float: right;
+}
+
+.con_10 ul li.l2 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0.36rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.08rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

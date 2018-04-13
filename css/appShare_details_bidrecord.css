@@ -1,0 +1,181 @@
+.box {
+    width: 7.5rem;
+    height: auto;
+    overflow: hidden;
+}
+
+.title {
+    width: 100%;
+    height: 1.28rem;
+    padding-top: 0.64rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border-bottom: 0.02rem solid rgba(240, 240, 240, 1);
+}
+
+.title .con {
+    width: 100%;
+    height: 0.48rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title .con .left {
+    width: 0.2rem;
+    height: 100%;
+    position: relative;
+}
+.title .con .left a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.title .con .left img {
+    width: 0.2rem;
+    height: 0.36rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.title .con .center {
+    width: auto;
+    height: 100%;
+    font-size: 0.34rem;
+    line-height: 0.48rem;
+    color: rgba(68, 68, 68, 1);
+    overflow: hidden;
+    margin:auto;
+}
+
+.box .con_1{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    padding-top:0.37rem
+}
+.box .con_1 div{
+    width:100%;
+    height:0.34rem;
+    padding-left:0.3rem;
+    padding-right:0.3rem;
+    font-size:0.24rem;
+    font-size:0;
+}
+.box .con_1 div a{
+    display:inline-block;
+    width:19%;
+    font-size:0.24rem;
+    color:#000;
+    line-height:0.34rem;
+    text-align: center;
+}
+.box .con_1 div a.a1{
+    width:12%;
+   /* background:cornflowerblue;*/
+}
+.box .con_1 div a.a2{
+    width:22%;
+   /* background:cadetblue;*/
+}
+.box .con_1 div a.a3{
+    width:22%;
+   /* background:chocolate;*/
+}
+.box .con_1 div a.a4{
+    width:32%;
+   /* background:cornsilk;*/
+}
+.box .con_1 div a.a5{
+    width:12%;
+  /*  background:chartreuse;*/
+}
+.box .con_1 .u1{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+.box .con_1 .u1>li{
+    width:100%;
+    height:0.6rem;
+    background:rgba(240,240,240,1);
+    margin-top:0.15rem;
+    margin-bottom:0.15rem;
+    padding-left:0.3rem;
+    padding-right:0.3rem;
+}
+.box .con_1 .u1>li .u2{
+    width:100%;
+    height:100%;
+}
+.box .con_1 .u1>li .u2>li{
+    float:left;
+    height:100%;
+    text-align: center;
+    font-size:0.24rem;
+    color:#000;
+    line-height:0.6rem;
+}
+.box .con_1 .u1 li ul.lead li{
+    color:#FF7F03;
+}
+.box .con_1 .u1 li ul li#second a{
+    background:#FF7F03;
+}
+.con_1 .u1 li ul li.first a{
+    padding:0.04rem 0.08rem 0.04rem 0.08rem;
+    background:rgba(175,175,175,1);
+    color:#fff;
+}
+.con_1 .u1 li.back{
+    background:#fff;
+}
+.box .con_1 .u1>li .u2>li.ll1{
+    width:12%;
+   /* background:cornflowerblue;*/
+}
+.box .con_1 .u1>li .u2>li.ll2{
+    width:22%;
+   /* background:cadetblue;*/
+}
+.box .con_1 .u1>li .u2>li.ll3{
+    width:22%;
+   /* background:chocolate;*/
+}
+.box .con_1 .u1>li .u2>li.ll4{
+    width:32%;
+   /* background:cornsilk;*/
+}
+.box .con_1 .u1>li .u2>li.ll5{
+    width:12%;
+   /* background:chartreuse;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
